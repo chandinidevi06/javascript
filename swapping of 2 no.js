@@ -7,3 +7,5 @@ var b=(20)
 }
 console.log(`the value of a after swapping:${a}`);
 console.log(`the value of a after swapping:${b}`);
+
+

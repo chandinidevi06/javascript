@@ -13,7 +13,7 @@ while(temp>0)
 }
 if (sum == a)
 {
-    console.log(a,"is a amstrong number")
+    console.log(a,"is a amstrong number");
 }
 else 
 {

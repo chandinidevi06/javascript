@@ -6,3 +6,4 @@ let sum = 0;
   return sum;
 }
 console.log(sumOfNaturalNumbers(10));
+
