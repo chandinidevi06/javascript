@@ -1,12 +1,22 @@
-const num1 = ('6');
-const num2 = ('8');
+// const num1 = 6
+// const num2 = 8
+// let min = (num1 > num2) ? num1 : num2;
+
+// while (true) {
+//     if (min % num1 == 0 && min % num2 == 0) {
+//         console.log(`The LCM of ${num1} and ${num2} is ${min}`);
+//         break;
+//     }
+//     min++;
+// }
 
 
-let min = (num1 > num2) ? num1 : num2;
-
-while (true) {
-    if (min % num1 == 0 && min % num2 == 0) {
-        console.log(`The LCM of ${num1} and ${num2} is ${min}`);
+const num1= 2
+const num2= 4
+let min = (num1>num2)? num1 : num2;
+while (true){
+    if (min % num1 == 0 && min % num2 == 0){
+        console.log(`the lcm of ${num1}and ${num2}is${min}`);
         break;
     }
     min++;

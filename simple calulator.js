@@ -1,5 +1,5 @@
-var a=10
-var b=20
+var a = 10
+var b = 20
 var op="+"
 if(op =="+") {
     console.log(a+b);
@@ -13,6 +13,7 @@ if(op =="+") {
 
 else if(op == "/")
     console.log(a/b);
-else{
+else  {
     console.log("invalid op");
 }
+

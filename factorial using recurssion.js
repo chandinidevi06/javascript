@@ -1,8 +1,20 @@
-function factotrial(num){
+// function factorial(num){
+//     if(num==0){
+//         return 1
+//     }else{
+//         return num+factorial(num-1)
+//     }
+// }
+// console.log(factorial(5));
+
+
+
+
+function factorial(num){
     if(num==0){
         return 1
     }else{
-        return num+factotrial(num-1)
+        return num+factorial(num-1)
     }
 }
-console.log(factotrial(5));
+console.log(factorial(5));
