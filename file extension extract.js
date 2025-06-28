@@ -1,3 +1,3 @@
 var a="index.html"
-var c=a.split(".").pop()
+var c= a.split(".").pop()
 console.log(c)

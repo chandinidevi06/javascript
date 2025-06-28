@@ -6,3 +6,4 @@ function naturalnumber(num){
     }
 }
 console.log(naturalnumber(5));
+

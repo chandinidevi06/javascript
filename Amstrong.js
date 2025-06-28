@@ -2,7 +2,7 @@ let a = 153
 let temp = a
 let sum=0
 while(temp>0)
-{ 
+{
     let rem = temp%10
     console.log(rem)
     sum += rem*rem*rem

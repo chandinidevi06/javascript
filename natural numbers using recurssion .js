@@ -7,3 +7,4 @@ function show(a){
 }
 
 console.log(show(1));
+

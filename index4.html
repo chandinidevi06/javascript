@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol id = "ol">
+    </ol>
+    <script>
+        var ol = document.getElementById("ol")
+        var list1 = document.createElement("li")
+        var list2 =  document.createElement("li")
+        list1.textContent = "apple"
+        list2.textContent="banana"
+        ol.appendChild(list1)
+        ol.appendChild(list2)
+        ol.style.border = "solid black"
+        ol.style.color ="blue"
+        ol.style.backgroundColor = "pink"
+        ol.style.height="70px";
+        ol.style.width="50px";
+        console.log(ol);
+
+    </script>
+    <body>
+        <button onclick="show">click</button>
+        <script>
+            functionshow (){
+                alert("the button has been click")
+            }
+        </script>
+    </body>
+</body>
+</html>

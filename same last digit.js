@@ -4,3 +4,4 @@ function haveSameLastDigit(a, b) {
 
 console.log(haveSameLastDigit(27, 137)); 
 console.log(haveSameLastDigit(42, 19));
+

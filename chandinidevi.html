@@ -1,0 +1,27 @@
+ <!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onresize="alert('the page is resized')">
+      <button onclick="alert('clicked the button')">click</button>
+      <input  onchange ="console.log(this.value);"type="text">
+        <h1 onmouseover="this.style.color='red'">hello world</h1>
+        <h1 onmouseout="this.style.color='red'">hello world</h1>
+        <input onkeydown="alert('a key has been pressed')" type="text">
+        <input onkeyup="alert('a key has been pressed')" type="text">
+         <form  onsubmit="alert('form has been submitted')"action="">
+            <input type="text">
+            <button>click</button>
+          </form>
+
+          <input  oninput="console.log(this.value);" type="text" > 
+        <input onfocus="this.style.color='black'" type="text">
+         <input  onblur="this.style.backgroundcolor='aqua'" type="text">
+          <button ondoubleclick="console.log('u clicked the button');">click</button> 
+           <div oncontextmenu="alert('right click is disabled')"style="height:100px; width: 50px; background color:pink;">click</div>
+
+</body>
+</html>

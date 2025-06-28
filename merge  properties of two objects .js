@@ -10,3 +10,5 @@ const student = {
 const newObj = Object.assign(person, student);
 
 console.log(newObj);
+
+

@@ -8,7 +8,7 @@ function fibonacci(num) {
 }
 const nTerms =('5');
 
-if(nTerms <0) {
+if(nTerms <=0) {
     console.log('Enter a positive integer');
 }
 else {
